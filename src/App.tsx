@@ -14,6 +14,7 @@ export interface GameQuery {
   platform: Parentplatform | null;
   sortOrder: string;
   searchInput: string;
+  rating_top:number;
 }
 
 const App = () => {
